@@ -1,9 +1,9 @@
 countries = {
-    'Mexico': 122,
-    'Argentina': 50,
-    'Colombia': 55,
-    'Chile': 20,
-    'Peru': 33
+    'mexico': 122,
+    'argentina': 50,
+    'colombia': 55,
+    'chile': 20,
+    'peru': 33
 }
 
 def main():
@@ -19,7 +19,7 @@ def main():
                 poblation = int(input('Digite el numero de habitantes de dicho país: '))
                 add_country(country, poblation)
             elif choice == 'n':
-                continue
+                break
 
 
 def add_country(country, poblation):
